@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans';
+}
+
+body {
+    background-color: #2f1893;
+    /* color: #fff; */
+    font-size: 16px;
+}
+
+.main {
+    max-width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 213px 0px 213px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin: 0 20px;
+    transition: opacity 0.3s;
+}
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+.active{
+    opacity: 0.7;
+
+}
+.purchase-btn {
+    background: #e93a7d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.container{
+    padding: 65px 213px 0px 213px;
+    display: flex;
+}
+    .container-2{
+        width: 427;
+        height: 497;
+    }
+.heading h2{
+    width: 424px;
+    height: 217px;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    font-weight: 700;
+    color: #fff;
+}
+.paragraph{
+    width: 300px;
+    height: 170px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    padding-top: 25px;
+    color: #fff;
+}
+.learn-btn{
+    background: #e93a7d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.signup-form{
+    width: 470px;
+    height: 600px;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.sign-now h3{
+   font-weight: 700;
+   font-size: 42px;
+   line-height: 52px;
+   letter-spacing: -0.4px;
+   text-align: center;
+   color:  #1E0E62;
+   padding-top: 40px;
+}
+.tow-input{
+   padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tow-input input{
+    width: 330px;
+    height: 50px;
+    border-radius: 60px;
+    border: 1.5px solid #ebeaed;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+   
+    
+}
+.tow-input input::placeholder{
+    padding-left: 20px;
+    color: #ebeaed;
+}
+
+.Terms{
+    width: 400px;
+    font-size: 16px;
+    color: gray;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+.checkbox:checked {
+    
+    background-color: #25dac5;
+}
+.sign-btn{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sign-in{
+    width: 330px;
+    height: 50px;
+    border: none;
+    background-color: #482be7;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+}
+.horizontal-lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.line {
+    width: 141px;
+    height: 2px;
+    background-color: #ebeaed;
+    margin: 0 10px;
+}
+.separator{
+    color: #151439;
+}
+.login-btn{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.log-in{
+    width: 330px;
+    height: 50px;
+    border: none;
+    background-color: #1da1f2;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+}
+.last-p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    color: #151439;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.sing-a a{
+    text-decoration: none;
+    color: #25dac5;
+    padding-left: 7px;
+}
+
+
+/* responsive */
+@media (max-width: 768px) {
+    /* .navbar {
+        padding: 20px;
+    } */
+    .navbar {
+        padding: 10px 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 10px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    ul li {
+        margin: 10px 0;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .heading h2 {
+        font-size: 36px;
+        line-height: 42px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .paragraph {
+        font-size: 18px;
+        line-height: 24px;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .learn-btn,
+    .signup-form {
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .signup-form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .tow-input input {
+        width: 100%;
+    }
+
+    .Terms {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .checkbox:checked {
+        background-color: #25dac5;
+    }
+
+    .sign-btn,
+    .login-btn {
+        padding-top: 20px;
+    }
+
+    .sign-in,
+    .log-in {
+        width: 100%;
+    }
+
+    .horizontal-lines {
+        padding-top: 20px;
+    }
+
+    .line {
+        width: 50%;
+    }
+}
